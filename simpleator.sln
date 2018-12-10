@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emulator", "emulator\emulator.vcxproj", "{7382AEC3-1D55-42E2-BD8B-621DCCF3FD91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88DE519D-200D-44B2-A66C-58CAA1EAB946} = {88DE519D-200D-44B2-A66C-58CAA1EAB946}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplelator", "monitor\monitor.vcxproj", "{11E5E98F-C3BF-4665-A294-6ADA7FE41B8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "provider", "provider\provider.vcxproj", "{88DE519D-200D-44B2-A66C-58CAA1EAB946}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testapp", "testapp\testapp.vcxproj", "{529833A4-39E6-46A8-87B5-0F3CAE94BEAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7382AEC3-1D55-42E2-BD8B-621DCCF3FD91}.Release|x64.ActiveCfg = Release|x64
+		{7382AEC3-1D55-42E2-BD8B-621DCCF3FD91}.Release|x64.Build.0 = Release|x64
+		{11E5E98F-C3BF-4665-A294-6ADA7FE41B8E}.Release|x64.ActiveCfg = Release|x64
+		{11E5E98F-C3BF-4665-A294-6ADA7FE41B8E}.Release|x64.Build.0 = Release|x64
+		{88DE519D-200D-44B2-A66C-58CAA1EAB946}.Release|x64.ActiveCfg = Release|x64
+		{88DE519D-200D-44B2-A66C-58CAA1EAB946}.Release|x64.Build.0 = Release|x64
+		{529833A4-39E6-46A8-87B5-0F3CAE94BEAC}.Release|x64.ActiveCfg = Release|x64
+		{529833A4-39E6-46A8-87B5-0F3CAE94BEAC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39BC7C15-ACA8-40D3-8126-8CA5FC8F1508}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+;/*++
+;
+;Copyright (c) Alex Ionescu.  All rights reserved.
+;
+;Header Name:
+;
+;    provider.def
+;
+;Abstract:
+;
+;    This is the export definition file for the RS5/19H1 System Call Provider.
+;
+;Author:
+;
+;    Alex Ionescu (@aionescu) 12-Dec-2018 - Initial version
+;
+;Environment:
+;
+;    Kernel mode only.
+;
+;--*/
+
+LIBRARY PROVIDER.DLL
+
+EXPORTS
+
+SemRegisterSystemCallProvider
